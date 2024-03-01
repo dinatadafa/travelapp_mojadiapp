@@ -1,5 +1,4 @@
-# Travel App
+# Travel App // MojadiApp IOS & Mobile Developer
 Nama : Dafa Kurnia Dinata
-n/MojadiApp IOS & Mobile Developer
 
-A new Flutter project.
+Flutter project.
