@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:mojadiapp/dashboard.dart';
+import 'package:mojadiapp/dashboard.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -11,7 +11,6 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashScreen> {
 
-  //Delay to navigate the screen automatically
   @override
   void initState(){
     super.initState();
@@ -93,7 +92,9 @@ class _SplashScreenState extends State<SplashScreen> {
                     height: 45,
                     child: ElevatedButton(
                       onPressed: () {
-                        // Action when button is pressed
+                        Navigator.pushReplacement(
+                          context, MaterialPageRoute(
+                            builder: (context)=>DashboardScreen()));
                       },
                       style: ElevatedButton.styleFrom(
                         backgroundColor: const Color.fromARGB(255, 0, 135, 246),
